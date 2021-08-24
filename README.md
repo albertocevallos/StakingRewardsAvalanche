@@ -44,7 +44,7 @@ To deploy the StakingRewards contract in a development environment:
 2. Run Scripts for Deployment
 
 ```
-  brownie run deploy
+  brownie run scripts/deploy.py --network avax-avash2
 ```
 
 Deployment will set up your StakingRewards contract along with its dependencies.
